@@ -55,4 +55,4 @@ kramdown:
 
 exclude: ['README.md', 'LICENSE']
 
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-cayman
