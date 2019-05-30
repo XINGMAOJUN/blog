@@ -22,6 +22,12 @@ layout: default
             <article class="post-content">
               {{ content }}
             </article>
+			{% if site.commenthub_id and page.comments == true %}
+			<section>
+				<h1>评论</h1>
+				<div id="commenthub_thread" aria-live="polite"></div>
+			</section>
+			{% endif %}
         </div>
       </div>
     </div>
